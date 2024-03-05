@@ -50,6 +50,7 @@ namespace RestApi_03._05
 
             Console.WriteLine("1. feladat");
             Console.WriteLine($"\t A legjobban kereső dolgozo {legmagasabb.Name}, a fizetése: {legmagasabb.Salary}");
+
         }
     }
 }
