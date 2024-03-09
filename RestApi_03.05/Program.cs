@@ -11,15 +11,14 @@ namespace RestApi_03._05
     class Program
     {
         static string endPointUrl = "https://retoolapi.dev/KqpqJ9/data";
-        /* "id": 1,
-           "name": "Hershel Shields",
-           "salary": 30903
-        */
+        
 
         static List<Adat> adatok = new List<Adat>();
         static void Main(string[] args)
         {
+            //https://app.quicktype.io/ api alap kód generálás c#-hoz
             //https://merlinvizsga.hu/index.php?menu=syncAsync
+            //
             restapiAdatok().Wait();
             foreach(Adat item in adatok)
             {
